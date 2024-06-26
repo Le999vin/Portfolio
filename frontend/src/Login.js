@@ -1,3 +1,8 @@
+/*
+author: Levin Pamay
+Version: 1.
+The `Login` component manages a form for user email and password input, validates the fields using `Validation`, sends a POST request upon validation, and navigates to `/home` on successful login or alerts if no record exists.
+*/ 
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Validation from "./LoginValidation";

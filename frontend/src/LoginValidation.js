@@ -1,3 +1,8 @@
+/*
+author: Levin Pamay
+Version: 1.
+The `Validation` function validates the `email` and `password` fields in `values`, returning an `error` object with respective error messages if the fields are empty or do not match specified patterns.
+*/ 
 function Validation(values) {
 
     let error = {}

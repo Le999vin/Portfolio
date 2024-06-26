@@ -1,3 +1,8 @@
+/*
+author: Levin Pamay
+Version: 1.
+This code initializes a React application, rendering the `App` component within `<React.StrictMode>` for enhanced development checks, integrates Bootstrap styles, and logs web vitals performance metrics.
+*/ 
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";

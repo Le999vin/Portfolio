@@ -1,3 +1,8 @@
+/*
+author: Levin Pamay
+Version: 1.
+The `Validation` function checks and returns error messages for fields such as name, email, and password based on specific criteria including non-empty requirements and format validations using regular expressions.
+*/ 
 function Validation(values) {
 
     let error = {}

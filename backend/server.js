@@ -1,3 +1,8 @@
+/*
+author: Levin Pamay
+Version: 1.
+This Node.js server uses Express to handle HTTP requests, interacts with a MySQL database for user authentication and registration via `/login` and `/signup` endpoints, and employs CORS middleware for cross-origin resource sharing.
+*/ 
 const express = require("express");
 const mysql = require("mysql");
 const cors = require("cors");

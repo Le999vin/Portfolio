@@ -1,3 +1,8 @@
+/*
+author: Levin Pamay
+Version: 1.
+The `Home` component in React renders a welcome message and a link to a local portfolio page under "Projekt 1".
+*/ 
 import React from 'react';
 import Portfolio from './Portfolio'; // Korrekt, da sich beide Dateien im selben Verzeichnis befinden
 

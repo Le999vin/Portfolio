@@ -1,3 +1,8 @@
+/*
+author: Levin Pamay
+Version: 1.
+The `Signup` component manages a sign-up form in React, validating user inputs for name, email, and password using local state, sending a POST request upon valid inputs, and providing error feedback while allowing navigation to a login page and displaying terms and policies.
+*/ 
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import Validation from './SignupValidation';

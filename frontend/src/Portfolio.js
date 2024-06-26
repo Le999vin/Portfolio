@@ -1,4 +1,9 @@
 // src/components/Portfolio.js
+/*
+author: Levin Pamay
+Version: 1.
+The `Portfolio` component in React fetches portfolio data from an API endpoint using Axios upon component mounting, displaying each project's title, description, and optional image within styled elements.
+*/ 
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './Portfolio.css'; // CSS-Datei importieren
