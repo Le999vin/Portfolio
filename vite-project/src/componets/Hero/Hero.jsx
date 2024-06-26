@@ -1,3 +1,8 @@
+/*
+author: Levin Pamay
+Version: 1
+Description: This code defines a React functional component named "Hero" that represents a hero section typically found at the top of a webpage. It includes a title "Hi Im Levin", a description "I am Application Developer", and a "Contact Me" button that opens the default email client when clicked. The hero section also features an image sourced from a utility function `getImageUrl` for the hero image, ensuring responsive design and aesthetics with blurred overlays using CSS classes from "./Hero.module.css".
+*/ 
 import React from 'react'
 
 import { getImageUrl } from '../../utils';

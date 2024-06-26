@@ -1,4 +1,9 @@
 // Swott.jsx
+/*
+author: Levin Pamay
+Version: 1
+Description: This code defines a React functional component called "Swott" that displays a section with titles for strengths and weaknesses, each represented as lists with specific items styled using CSS modules imported from './Swott.module.css'.
+*/ 
 import React from 'react';
 import styles from './Swott.module.css';
 

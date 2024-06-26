@@ -1,3 +1,8 @@
+/*
+author: Levin Pamay
+Version: 1
+Description: This code defines a React functional component named "About" that represents a section typically describing a person or entity. It includes a title "About", and inside the section, there are two list items describing different roles ("Frontend Developer" and "Backend Developer") with corresponding descriptions. Icons next to each role indicate the nature of the role. The component utilizes CSS modules from "./About.module.css" for styling, ensuring each element's layout and appearance are consistent and responsive. Additionally, there are commented-out sections that might represent placeholders for future content (like "UI Designer").
+*/
 import React from 'react'
 import styles from "./About.module.css";
 import { getImageUrl } from '../../utils';

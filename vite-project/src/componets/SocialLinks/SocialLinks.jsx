@@ -1,4 +1,9 @@
 // SocialLinks.jsx
+/*
+author: Levin Pamay
+Version: 1
+Description: This code defines a React functional component called "SocialLinks" that renders a list of social media links styled with CSS modules imported from './SocialLinks.module.css'. Each list item contains an anchor tag linking to various social media platforms (WhatsApp, Twitter, Google, Instagram), with corresponding font awesome icons and labels.
+*/ 
 import React from 'react';
 import styles from './SocialLinks.module.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';

@@ -1,3 +1,8 @@
+/* 
+Author: levin Pamay
+Version: 1.
+The code imports CSS styles from a file named "App.module.css" and renders a web page with a Navbar, a Hero section, sections for "About", "Skills", "Swott", and "SocialLinks", each represented by their respective components.
+*/
 import styles from "./App.module.css";
 import { About } from "./componets/About/About";
 import { Hero } from "./componets/Hero/Hero";

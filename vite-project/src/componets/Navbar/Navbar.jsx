@@ -1,3 +1,8 @@
+/*
+author: Levin Pamay
+Version: 1
+Description: This code defines a React functional component called "Navbar" that renders a navigation bar for a portfolio website. It includes a title "Portfolio", a menu button that toggles the visibility of navigation links for "About", "Skills", "SWOTT", and "Contact". The navigation links use React Scroll to smoothly scroll to corresponding sections on the page when clicked, and the menu collapses when a link is selected or the menu button is clicked again. Styling is managed through CSS modules imported from "./Navbar.module.css", ensuring the layout and appearance of the navbar components are consistent and responsive.
+*/ 
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import styles from "./Navbar.module.css";
