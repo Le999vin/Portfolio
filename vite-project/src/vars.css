@@ -1,0 +1,15 @@
+:root {
+    /* Text Colours */
+    --color-text: #ffffff;
+    /* Contact Me Btn*/
+    --color-primary: #a059b3;
+    /*Experience shape Color*/
+    --color-secondary: #000000;
+    /*Prjects btn React, Express, Node, Sass*/
+    --color-dark: #7559bc;
+    /*Backround Colour*/
+    --color-bg: #14477e;
+    /* Fonts */
+    --font-roboto: "Roboto";
+  }
+  

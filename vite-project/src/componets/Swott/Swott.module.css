@@ -1,0 +1,46 @@
+@import "../../vars.css";
+
+/* Swott.module.css */
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 40px;
+    margin: 20px;
+    color: #ffffff;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #a56bd8;
+  }
+  
+  .lists {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .list {
+    width: 45%;
+  }
+  
+  .listTitle {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #d8a56b;
+  }
+  
+  .item {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .item:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  

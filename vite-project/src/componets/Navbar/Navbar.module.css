@@ -1,0 +1,70 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0a23;
+    padding: 1rem 2rem;
+}
+
+.title {
+    color: #a56bd8;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.menu {
+    position: relative;
+}
+
+.menuBtn {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.menuItems {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px; /* Adjust based on your menuBtn height and padding */
+    background-color: #243c6c;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menuItems li {
+    margin: 0;
+}
+
+.menuItems li a {
+    display: block;
+    padding: 1rem 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-bottom: 1px solid #444;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.menuItems li a:hover {
+    background-color: #1a2c4a;
+    color: #8726dc; /* Change text color on hover */
+}
+
+.menuItems li:last-child a {
+    border-bottom: none;
+}
+
+/* Show menu items when menu is open */
+.menu.open .menuItems {
+    display: block;
+    box-shadow: 0 0 4px 0 rgb(0, 0, 0, 0.25);
+}
+
+/* Adjust the image to not cover the nav */
+img {
+    margin-right: 50px; /* Adjust this value as needed */
+}

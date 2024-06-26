@@ -1,0 +1,11 @@
+/*Import einer CSS-Datei*/
+@import "./vars.css";
+
+.App { /*.App: Selektor für ein HTML-Element mit der Klasse App.*/
+  background-color: var(--color-bg); /*Setzt die Hintergrundfarbe des Elements auf den Wert der CSS-Variable --color-bg, die in der vars.css-Datei oder an anderer Stelle definiert ist.*/
+  width: 100%; /* Breite des Elements auf 100% des übergeordneten Containers.*/
+ /* Höhe des Elements auf 100% des übergeordneten Containers.*/
+  overflow: hidden; /* Verhindert das Scrollen, indem Inhalte, die über die Grenzen des Elements hinausragen, abgeschnitten werden.*/
+
+  color: white; 
+}
